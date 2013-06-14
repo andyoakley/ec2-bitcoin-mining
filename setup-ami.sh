@@ -11,7 +11,8 @@ sudo apt-get install libcurl4-dev
 #
 # Setup cgminer
 #
-git clone https://github.com/ckolivas/cgminer.git
+git clone https://github.com/ckolivas/cgminer.git cgminer
+cd cgminer
 ./autogen.sh --enable-cpumining
 make
 
